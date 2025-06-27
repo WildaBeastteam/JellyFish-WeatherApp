@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JellyFish App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #7FDBFF, #0074D9);
+      color: #ffffff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .logo {
+      width: 120px;
+      margin: 20px auto;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0.2em 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #e0f7ff;
+    }
+
+    @keyframes float {
+      0% { transform: translatey(0px); }
+      50% { transform: translatey(-10px); }
+      100% { transform: translatey(0px); }
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to JellyFish!</h1>
-  <p>This is a placeholder site while our mobile app is under development.</p>
+  <!-- Optional: Replace with a real logo -->
+  <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jelly_cc11.svg/512px-Jelly_cc11.svg.png" alt="JellyFish Logo" />
+
+  <h1>Welcome to JellyFish</h1>
+  <p>
+    Your new favorite weather app for moms. Get daily weather forecasts and personalized
+    clothing suggestions for your kids—because getting out the door should be easier.
+  </p>
+
+  <p>
+    JellyFish is currently under development. Stay tuned for updates and launch info!
+  </p>
+
+  <div class="footer">
+    &copy; 2025 JellyFish App — All rights reserved.
+  </div>
 </body>
 </html>
